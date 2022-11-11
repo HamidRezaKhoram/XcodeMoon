@@ -11,6 +11,15 @@
 		034D535628AA595E00559467 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D535528AA595E00559467 /* ContentView.swift */; };
 		034D535828AA596000559467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034D535728AA596000559467 /* Assets.xcassets */; };
 		034D535B28AA596000559467 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034D535A28AA596000559467 /* Preview Assets.xcassets */; };
+		034E099128AF7677003C1366 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 034E099028AF7677003C1366 /* GoogleService-Info.plist */; };
+		034E099328AF9317003C1366 /* JSONStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E099228AF9317003C1366 /* JSONStruct.swift */; };
+		034E099528AF93CC003C1366 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E099428AF93CC003C1366 /* Bundle-Decodable.swift */; };
+		034E099828AF98A9003C1366 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 034E099628AF98A9003C1366 /* astronauts.json */; };
+		034E099928AF98A9003C1366 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 034E099728AF98A9003C1366 /* missions.json */; };
+		034E099B28AFA84C003C1366 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E099A28AFA84C003C1366 /* Color-Theme.swift */; };
+		034E099D28AFB1F2003C1366 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034E099C28AFB1F2003C1366 /* MissionView.swift */; };
+		03DB22DC28B25F5000F593FC /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB22DB28B25F5000F593FC /* AstronautView.swift */; };
+		0C6E50176FBAF729324CD72E /* Pods_Moonshot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEACCA89CADB4805777F710 /* Pods_Moonshot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,17 @@
 		034D535528AA595E00559467 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		034D535728AA596000559467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034D535A28AA596000559467 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		034E099028AF7677003C1366 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		034E099228AF9317003C1366 /* JSONStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStruct.swift; sourceTree = "<group>"; };
+		034E099428AF93CC003C1366 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		034E099628AF98A9003C1366 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = astronauts.json; path = "project8-files/astronauts.json"; sourceTree = SOURCE_ROOT; };
+		034E099728AF98A9003C1366 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = missions.json; path = "project8-files/missions.json"; sourceTree = SOURCE_ROOT; };
+		034E099A28AFA84C003C1366 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		034E099C28AFB1F2003C1366 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		03DB22DB28B25F5000F593FC /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		3B964AFEADD18DA0505C112D /* Pods-Moonshot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moonshot.debug.xcconfig"; path = "Target Support Files/Pods-Moonshot/Pods-Moonshot.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF293A1E7314751F09B53C6 /* Pods-Moonshot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moonshot.release.xcconfig"; path = "Target Support Files/Pods-Moonshot/Pods-Moonshot.release.xcconfig"; sourceTree = "<group>"; };
+		4FEACCA89CADB4805777F710 /* Pods_Moonshot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moonshot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C6E50176FBAF729324CD72E /* Pods_Moonshot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +58,8 @@
 			children = (
 				034D535228AA595E00559467 /* Moonshot */,
 				034D535128AA595E00559467 /* Products */,
+				F29D26AE9C30A5AF761EFC77 /* Pods */,
+				DE78643CE3FC11A27EE891CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +76,14 @@
 			children = (
 				034D535328AA595E00559467 /* MoonshotApp.swift */,
 				034D535528AA595E00559467 /* ContentView.swift */,
+				034E099A28AFA84C003C1366 /* Color-Theme.swift */,
+				034E099228AF9317003C1366 /* JSONStruct.swift */,
+				034E099C28AFB1F2003C1366 /* MissionView.swift */,
+				03DB22DB28B25F5000F593FC /* AstronautView.swift */,
+				034E099428AF93CC003C1366 /* Bundle-Decodable.swift */,
+				034E099628AF98A9003C1366 /* astronauts.json */,
+				034E099728AF98A9003C1366 /* missions.json */,
+				034E099028AF7677003C1366 /* GoogleService-Info.plist */,
 				034D535728AA596000559467 /* Assets.xcassets */,
 				034D535928AA596000559467 /* Preview Content */,
 			);
@@ -67,6 +98,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DE78643CE3FC11A27EE891CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FEACCA89CADB4805777F710 /* Pods_Moonshot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F29D26AE9C30A5AF761EFC77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B964AFEADD18DA0505C112D /* Pods-Moonshot.debug.xcconfig */,
+				4CF293A1E7314751F09B53C6 /* Pods-Moonshot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034D535E28AA596000559467 /* Build configuration list for PBXNativeTarget "Moonshot" */;
 			buildPhases = (
+				B18BEC666B6DC05191943EA3 /* [CP] Check Pods Manifest.lock */,
 				034D534C28AA595E00559467 /* Sources */,
 				034D534D28AA595E00559467 /* Frameworks */,
 				034D534E28AA595E00559467 /* Resources */,
+				FD06EE2478C27C3474E711F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +176,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				034D535B28AA596000559467 /* Preview Assets.xcassets in Resources */,
+				034E099928AF98A9003C1366 /* missions.json in Resources */,
 				034D535828AA596000559467 /* Assets.xcassets in Resources */,
+				034E099128AF7677003C1366 /* GoogleService-Info.plist in Resources */,
+				034E099828AF98A9003C1366 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B18BEC666B6DC05191943EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moonshot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD06EE2478C27C3474E711F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moonshot/Pods-Moonshot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moonshot/Pods-Moonshot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moonshot/Pods-Moonshot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		034D534C28AA595E00559467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DB22DC28B25F5000F593FC /* AstronautView.swift in Sources */,
 				034D535628AA595E00559467 /* ContentView.swift in Sources */,
 				034D535428AA595E00559467 /* MoonshotApp.swift in Sources */,
+				034E099328AF9317003C1366 /* JSONStruct.swift in Sources */,
+				034E099528AF93CC003C1366 /* Bundle-Decodable.swift in Sources */,
+				034E099B28AFA84C003C1366 /* Color-Theme.swift in Sources */,
+				034E099D28AFB1F2003C1366 /* MissionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +361,7 @@
 		};
 		034D535F28AA596000559467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B964AFEADD18DA0505C112D /* Pods-Moonshot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +390,7 @@
 		};
 		034D536028AA596000559467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF293A1E7314751F09B53C6 /* Pods-Moonshot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
